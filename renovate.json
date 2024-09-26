@@ -1,0 +1,14 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:base"],
+  "semanticCommits": "enabled",
+  "stabilityDays": 3,
+  "prCreation": "not-pending",
+  "labels": ["type: dependencies"],
+  "packageRules": [
+    {
+      "matchPackageNames": ["/eslint/"],
+      "groupName": "eslint"
+    }
+  ]
+}

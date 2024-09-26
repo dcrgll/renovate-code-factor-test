@@ -1,4 +1,5 @@
 import Button from '@/components/button';
+import SameButtonAgain from '@/components/same-button-again';
 import Image from 'next/image';
 
 export default function Home() {
@@ -98,6 +99,7 @@ export default function Home() {
         </a>
 
         <Button />
+        <SameButtonAgain />
       </footer>
     </div>
   );
